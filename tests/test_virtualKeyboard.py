@@ -1,18 +1,3 @@
-import unittest
-from unittest.mock import patch, Mock
-from src.virtualKeyboard import VirtualKeyboard
-
-
-class TestVirtualKeyboard(unittest.TestCase):
-
-    def setUp(self):
-        self.mock_piano = Mock()
-        self.keyboard = VirtualKeyboard(self.mock_piano)
-
-    def test_press_key(self):
-        self.keyboard.press_key('C')
-        self.mock_piano.play_note_on.assert_called_once_with('C')
-
-    def test_release_key(self):
-        self.keyboard.release_key('C')
-        self.mock_piano.play_note_off.assert_called_once_with('C')
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1ab8cec7920d2c62a318feb7b02734f8e4d46f2e97fd2485b63ba7b8ac412b4
+size 551

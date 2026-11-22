@@ -1,0 +1,10 @@
+*.[Bb][Aa][Kk] filter=lfs diff=lfs merge=lfs -text
+*.[Jj][Ss][Oo][Nn] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Yy] filter=lfs diff=lfs merge=lfs -text
+*.[Pp][Yy][Cc] filter=lfs diff=lfs merge=lfs -text
+*.[Ss][Aa][Mm][Pp][Ll][Ee] filter=lfs diff=lfs merge=lfs -text
+*.[Ss][Qq][Ll][Ii][Tt][Ee] filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Xx] filter=lfs diff=lfs merge=lfs -text
+*.[Tt][Xx][Tt] filter=lfs diff=lfs merge=lfs -text
+*.[Vv][Ss][Ii][Dd][Xx] filter=lfs diff=lfs merge=lfs -text
+*.[Ww][Ss][Uu][Oo] filter=lfs diff=lfs merge=lfs -text

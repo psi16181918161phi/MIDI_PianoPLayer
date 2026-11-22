@@ -1,0 +1,6 @@
+/.history
+build/
+*.exe
+*.dll
+*.so
+*.dylib

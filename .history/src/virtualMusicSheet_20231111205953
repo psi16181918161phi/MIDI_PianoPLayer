@@ -1,0 +1,25 @@
+
+class Note {
+  pitch: string;
+  duration: number;
+  // any other relevant properties
+}
+
+class MusicSheet {
+  title: string;
+  composer: string;
+  tempo: number;
+  notes: Note[];
+}
+
+function parseMusicSheet(file: string): MusicSheet {
+  // implementation
+}
+
+function renderMusicSheet(sheet: MusicSheet): void {
+  // implementation
+}
+
+function playMusicSheet(sheet: MusicSheet): void {
+  // implementation
+}

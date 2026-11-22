@@ -1,16 +1,3 @@
-
-class VirtualMusicSheet:
-    def __init__(self):
-        self.notes = []
-
-    def add_note(self, note):
-        self.notes.append(note)
-
-    def remove_note(self, note):
-        self.notes.remove(note)
-
-    def clear_notes(self):
-        self.notes = []
-
-    def get_notes(self):
-        return self.notes
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0cc5b8aa8e4818771e0e647ddd5bfe5084c8a70037a7c07318b64b6b906f187
+size 323
